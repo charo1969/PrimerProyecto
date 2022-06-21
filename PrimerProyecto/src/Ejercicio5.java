@@ -23,7 +23,7 @@ public class Ejercicio5 {
 		double area = PI*radio *radio;
 		double longitud = 2 *PI *radio;
 		
-		System.out.println("La longitud de la circunferencia es "+ longitud+" y el area " + area+ " cm.");
+		// System.out.println("La longitud de la circunferencia es "+ longitud+" y el area " + area+ " cm.");
 		
 		System.out.printf("El área es %.2f cm2 y la longitud es %.2f cm.", area, longitud);
 	}
