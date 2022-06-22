@@ -11,12 +11,12 @@ public class Ejercicio6 {
 	public static void main(String[] args) {
 		
 		Scanner entrada = new Scanner(System.in);
-		System.out.println("Introduce una velocidad por km/h ");
 		
-		double velocidad = entrada.nextDouble();
-		double mpors = 1000*3600;
-		System.out.println("La velocidad en km/h es "+ velocidad+" a "+ mpors +" m/s");
-
+		System.out.println("Introduce una velocidad por km/h: ");
+		double km = entrada.nextDouble();
+		
+		double mpors = km*1000/3600;
+		System.out.printf("%.2f km/h son %.2f m/s",km, mpors);
 	}
 
 }
